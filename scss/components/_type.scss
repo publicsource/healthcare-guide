@@ -1,0 +1,102 @@
+//
+// Typography
+// --------------------------------------------------
+
+@include selection {
+	background-color: #a0c5ff;
+	color: #000;
+}
+
+html{
+	font-size: 100%; /* Sets baseline of 16px for REM calculations */
+	@include media(max-width 992px) {
+		font-size: 90%;
+	}
+	@include media(max-width 882px) {
+		font-size: 80%;
+	}
+}
+
+body{
+	background-color: #ffffff;
+	color: #000;
+	font-family: 'mallory', sans-serif;
+	font-weight: 400;
+}
+
+
+h1 {
+	font-family: 'Mallory';
+	//-webkit-font-smoothing: antialiased;
+	font-size: 2.5em;
+	font-weight: 800;
+	margin-bottom: 4%;
+      @include media(max-width $screen-mobile){
+          font-size: 2em; 
+      }
+}
+
+h2 {
+	font-family: 'Mallory';
+	font-weight: 600;
+      @include media(min-width $screen-mobile){
+          font-size: 1.4em;
+          line-height: 30px; 
+      }
+      @include media(max-width $screen-mobile){
+          font-size: 1.4em;
+          line-height: 30px;  
+      }
+}
+
+h3 {
+	font-family: 'Mallory';
+	//-webkit-font-smoothing: antialiased;
+	font-size: 1.6em;
+}
+
+
+h4{
+    font-family: "Mallory";
+    font-weight: 400;
+    line-height: 1.5em;
+        @include media(min-width $screen-mobile){
+          font-size: 1.1em;
+      }
+      @include media(max-width $screen-mobile){
+          font-size: 1.3em; 
+      }
+  }
+
+h5 {
+	font-family: 'Alfa Slab One';
+	//-webkit-font-smoothing: antialiased;
+	letter-spacing: 1px;
+}
+
+h2,
+h3{
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.2;
+}
+
+p,
+li{
+	line-height: 1.4;
+	//@include rem(margin, 0px 0px 10px);
+}
+
+
+a{
+	@include transition(color .15s linear);
+	text-decoration: none;
+	&:hover{
+	}
+}
+
+li {
+        padding-left: 1.28571429em;
+        text-indent: -1.28571429em;
+        margin-bottom: 1%;
+   }
+

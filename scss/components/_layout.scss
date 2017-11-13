@@ -1,0 +1,40 @@
+//
+// General layout elements
+// --------------------------------------------------
+
+//
+// Media Queries
+// --------------------------------------------------
+
+$screen-larger: 1300px;
+$screen-lg: 1100px;
+$screen-mobile: 950px;
+$screen-tablet: 1000px;
+$screen-table-collapse: 850px;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+//
+// Below screws up pym
+//
+
+// html,
+// body {
+//  height: 100%;
+// }
+
+body {
+  margin: 0;
+}
+
+img {
+	max-width: 100%;
+}

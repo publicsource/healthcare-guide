@@ -1,0 +1,132 @@
+// wraps
+
+.story {
+    width: 100%;
+    margin: auto;
+        a {
+          color: #418cff;
+            &:hover{
+
+                color: black;
+            }
+        }
+}
+
+.wrap-story {
+  max-width: 1260px;
+//  margin: 70px;
+  @media(max-width: $screen-mobile){
+    margin: 0px;
+    }
+}
+
+.outer   {
+@include outer-container (50%);
+    @media(max-width: $screen-mobile){
+    @include outer-container (100%);
+    margin: 6% 0 6% 0;
+    }
+}
+
+
+.container {
+    @include media(min-width $screen-mobile){
+      @include outer-container(55%);
+      }
+    @include media(max-width $screen-mobile){
+      @include outer-container(90%);
+      }
+    @include media(min-width $screen-larger){
+      @include outer-container(45%);
+      }
+      ul {
+        list-style-position: inside;
+        margin: 0;
+        font-family: 'Crimson-Text';
+        padding: 10px 10px 10px 20px;
+        line-height: 30px;
+        font-size: 1.25em;
+        text-align: left;
+          @include media(max-width $screen-mobile){
+          font-size: 1.5em;
+          line-height: 30px;
+      }
+
+      }
+}
+
+.container ul li ul li {
+  font-size: .8em;
+          @include media(max-width $screen-mobile){
+          font-size: .67em;
+          line-height: 30px;
+      }
+}
+
+
+// text
+
+.container p{
+  font-family: 'Crimson-Text'; 
+  text-align: left;
+  margin: 25px auto;
+  color: #111;
+  width: 100%;
+      @include media(min-width $screen-mobile){
+          font-size: 1.25em;
+          line-height: 30px; 
+      }
+      @include media(max-width $screen-mobile){
+          font-size: 1.5em;
+          line-height: 30px;  
+      }
+}
+
+// span classes
+
+.highlight {
+    background-color: #74e6db;
+    padding: .2em;
+    border-radius: .4em;
+}
+
+.mallory {
+    font-family: "Mallory";
+    font-weight: 600;
+    line-height: 1.5em;
+      @include media(min-width $screen-mobile){
+          font-size: .95em;
+          line-height: 30px; 
+      }
+      @include media(max-width $screen-mobile){
+          font-size: .9em;
+          line-height: 30px;  
+      }
+}
+
+.key-term {
+    background-color: white;
+    color: black;
+    padding: .4em;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: "Mallory";
+    font-weight: 800;
+      @include media(min-width $screen-mobile){
+          font-size: .9em;
+          line-height: -3%;
+      }
+      @include media(max-width $screen-mobile){
+          font-size: 1em;
+          line-height: 30px;  
+      }
+}
+
+// divider
+
+hr.style11 {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    margin: 3em 0 3em 0;
+}
