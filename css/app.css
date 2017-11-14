@@ -222,7 +222,7 @@ h1.nav-title__text {
   height: auto;
   width: 100%; }
   .texture .texture-normal {
-    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/corrugation.png"), linear-gradient(180deg, #8aeae1, #5ee2d5), center no-repeat #8aeae1 scroll;
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/corrugation.png"), linear-gradient(180deg, #74e6db, #74e6db), center no-repeat #74e6db scroll;
     padding: 0 4% 4% 4%;
     height: auto;
     margin: 35px auto;
@@ -230,7 +230,7 @@ h1.nav-title__text {
     border-radius: 5px;
     border: 7px black solid; }
   .texture .texture-inverted {
-    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/subtle_zebra_3d.png"), linear-gradient(180deg, #8aeae1, #5ee2d5), center no-repeat #8aeae1 scroll;
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/subtle_zebra_3d.png"), linear-gradient(180deg, #74e6db, #74e6db), center no-repeat #74e6db scroll;
     float: left;
     height: 5em;
     width: 50%; }
@@ -319,6 +319,147 @@ li {
   text-indent: -1.28571429em;
   margin-bottom: 1%; }
 
+.table-wrap {
+  margin-top: 4%;
+  margin-bottom: 4%; }
+  @media (min-width: 850px) {
+    .table-wrap {
+      max-width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #979797;
+      padding: 3%; }
+      .table-wrap::after {
+        clear: both;
+        content: "";
+        display: table; } }
+  @media (max-width: 850px) {
+    .table-wrap {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 4% 0 4% 0; }
+      .table-wrap::after {
+        clear: both;
+        content: "";
+        display: table; } }
+  .table-wrap h1 {
+    font-family: 'Mallory';
+    font-size: 1.4em;
+    line-height: 1.4em;
+    padding: 0 12% 1.5% 12%; }
+    @media (max-width: 850px) {
+      .table-wrap h1 {
+        text-align: left;
+        padding: 0 0 3% 0; } }
+
+h1.table-wrap__header {
+  font-size: 1.6em;
+  font-family: 'Mallory';
+  line-height: 1.25em;
+  text-align: center;
+  margin: 0px 0px 3px; }
+  @media (max-width: 950px) {
+    h1.table-wrap__header {
+      font-size: 1.4em;
+      line-height: 1.2em;
+      padding-bottom: 1%;
+      text-align: left; } }
+
+p.table-wrap__desc {
+  margin: 0px 0px 35px; }
+
+.sub-head {
+  text-align: center;
+  font-size: 1.1em;
+  color: #0aaa8a;
+  padding-bottom: 1.5%; }
+  @media (max-width: 950px) {
+    .sub-head {
+      text-align: left; } }
+
+.sub-head-red {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  color: #000;
+  padding-bottom: 1.5%; }
+  @media (max-width: 950px) {
+    .sub-head-red {
+      text-align: left; } }
+
+.second-table-wrap {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  margin-bottom: 4%; }
+  .second-table-wrap::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media (min-width: 950px) {
+    .second-table-wrap {
+      border: 1px solid #979797;
+      padding: 3%; } }
+  @media (max-width: 950px) {
+    .second-table-wrap {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 4% 0 4% 0; }
+      .second-table-wrap::after {
+        clear: both;
+        content: "";
+        display: table; } }
+  .second-table-wrap h1 {
+    font-family: 'Cutive';
+    font-size: 1.4em;
+    line-height: 1.4em;
+    padding: 0 12% 1.5% 12%; }
+    @media (max-width: 950px) {
+      .second-table-wrap h1 {
+        text-align: left;
+        padding: 0 0 3% 0; } }
+
+.table-minimal {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%; }
+  @media (min-width: 850px) {
+    .table-minimal tbody tr:first-child td {
+      border-top: 2px solid gainsboro; } }
+  .table-minimal thead th {
+    background-color: white;
+    border-bottom: 0;
+    padding: 0.6em 1em;
+    text-align: left; }
+  .table-minimal tbody {
+    background-color: white; }
+    .table-minimal tbody td {
+      border-bottom: 0;
+      border-top: 1px solid gainsboro;
+      line-height: 1.5em;
+      padding: 0.6em 1em; }
+      .table-minimal tbody td a {
+        color: #418cff;
+        text-decoration: underline; }
+        .table-minimal tbody td a:hover {
+          color: #000; }
+      .table-minimal tbody td button {
+        display: inline-block;
+        font-size: 0.7em;
+        line-height: 1.5em;
+        margin-bottom: 0.3em;
+        margin-right: 0.5em;
+        outline: none;
+        padding: 0.3em 1em;
+        width: 100%; }
+        @media screen and (min-width: 40em) {
+          .table-minimal tbody td button {
+            margin-bottom: 0;
+            width: auto; } }
+
 .story {
   width: 100%;
   margin: auto; }
@@ -374,7 +515,7 @@ li {
 
 @media screen and (min-width: 1300px) {
   .container {
-    max-width: 45%;
+    max-width: 40%;
     margin-left: auto;
     margin-right: auto; }
     .container::after {
@@ -392,6 +533,19 @@ li {
   text-align: left; }
   @media screen and (max-width: 950px) {
     .container ul {
+      font-size: 1.5em;
+      line-height: 30px; } }
+
+.container ol {
+  list-style-position: inside;
+  margin: 0;
+  font-family: 'Crimson-Text';
+  padding: 10px 10px 10px 20px;
+  line-height: 30px;
+  font-size: 1.25em;
+  text-align: left; }
+  @media screen and (max-width: 950px) {
+    .container ol {
       font-size: 1.5em;
       line-height: 30px; } }
 
@@ -419,8 +573,8 @@ li {
 
 .highlight {
   background-color: #74e6db;
-  padding: .2em;
-  border-radius: .4em; }
+  padding: .1em;
+  border-radius: .25em; }
 
 .mallory {
   font-family: "Mallory";

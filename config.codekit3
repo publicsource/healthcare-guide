@@ -95,6 +95,46 @@
 		"oAP": "\/humans.txt",
 		"oF": 0
 		},
+	"\/img\/2018.gif": {
+		"ft": 4194304,
+		"iS": 423744,
+		"oA": 0,
+		"oAP": "\/img\/2018.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/age.gif": {
+		"ft": 4194304,
+		"iS": 7073,
+		"oA": 0,
+		"oAP": "\/img\/age.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/calc.gif": {
+		"ft": 4194304,
+		"iS": 230607,
+		"oA": 0,
+		"oAP": "\/img\/calc.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/car.gif": {
+		"ft": 4194304,
+		"iS": 447527,
+		"oA": 0,
+		"oAP": "\/img\/car.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/doctor.gif": {
+		"ft": 4194304,
+		"iS": 231014,
+		"oA": 0,
+		"oAP": "\/img\/doctor.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
@@ -112,6 +152,24 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/gold.gif": {
+		"ft": 4194304,
+		"iS": 174017,
+		"oA": 0,
+		"oAP": "\/img\/gold.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/hands-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/hands-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -121,6 +179,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/money.gif": {
+		"ft": 4194304,
+		"iS": 483799,
+		"oA": 0,
+		"oAP": "\/img\/money.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/publicsource_logo_white.png": {
 		"ft": 32768,
@@ -132,6 +198,14 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/SOS.gif": {
+		"ft": 4194304,
+		"iS": 285801,
+		"oA": 0,
+		"oAP": "\/img\/SOS.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/svg\/arrowdown-01.svg": {
 		"ft": 2097152,

@@ -37,9 +37,23 @@
       @include outer-container(90%);
       }
     @include media(min-width $screen-larger){
-      @include outer-container(45%);
+      @include outer-container(40%);
       }
       ul {
+        list-style-position: inside;
+        margin: 0;
+        font-family: 'Crimson-Text';
+        padding: 10px 10px 10px 20px;
+        line-height: 30px;
+        font-size: 1.25em;
+        text-align: left;
+          @include media(max-width $screen-mobile){
+          font-size: 1.5em;
+          line-height: 30px;
+      }
+
+      }
+      ol {
         list-style-position: inside;
         margin: 0;
         font-family: 'Crimson-Text';
@@ -86,8 +100,8 @@
 
 .highlight {
     background-color: #74e6db;
-    padding: .2em;
-    border-radius: .4em;
+    padding: .1em;
+    border-radius: .25em;
 }
 
 .mallory {

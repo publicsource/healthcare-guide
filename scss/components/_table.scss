@@ -11,7 +11,7 @@
     padding: 4% 0 4% 0;
     }
     h1 {
-      font-family: 'Cutive';
+      font-family: 'Mallory';
       font-size: 1.4em;
       line-height: 1.4em;
       padding: 0 12% 1.5% 12%;
@@ -24,14 +24,15 @@
 
 h1.table-wrap__header{
   font-size: 1.6em;
-  font-family: 'Cutive';
+  font-family: 'Mallory';
   line-height: 1.25em;
   text-align: center;
-  margin: 0px 0px 5px;
+  margin: 0px 0px 3px;
   @media(max-width: $screen-mobile){
     font-size: 1.4em;
     line-height: 1.2em;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
+    text-align: left;
   }
 }
 
