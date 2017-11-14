@@ -261,12 +261,12 @@ body {
 
 h1 {
   font-family: 'Mallory';
-  font-size: 2.5em;
+  font-size: 2.8em;
   font-weight: 800;
   margin-bottom: 4%; }
   @media screen and (max-width: 950px) {
     h1 {
-      font-size: 2em; } }
+      font-size: 2.4em; } }
 
 h2 {
   font-family: 'Mallory';
@@ -440,7 +440,8 @@ p.table-wrap__desc {
       border-bottom: 0;
       border-top: 1px solid gainsboro;
       line-height: 1.5em;
-      padding: 0.6em 1em; }
+      padding: 0.6em 1em;
+      font-size: 1.1em; }
       .table-minimal tbody td a {
         color: #418cff;
         text-decoration: underline; }
@@ -573,8 +574,7 @@ p.table-wrap__desc {
 
 .highlight {
   background-color: #74e6db;
-  padding: .1em;
-  border-radius: .25em; }
+  padding: .15em; }
 
 .mallory {
   font-family: "Mallory";
