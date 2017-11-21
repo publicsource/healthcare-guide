@@ -30,8 +30,8 @@ input[type="submit"],
   appearance: none;
   border-radius: px;
   border: 1px solid #418cff;
-  color: #000;
-  background-color: #fff;
+  color: white;
+  background-color: #418cff;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
@@ -51,7 +51,7 @@ input[type="submit"],
 
   &:hover {
     background-color: #418cff;
-    color: #fff;
+    color: black;
   }
 
   &:focus {

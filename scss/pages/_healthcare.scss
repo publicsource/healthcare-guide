@@ -3,6 +3,7 @@
 .story {
     width: 100%;
     margin: auto;
+    max-width: 1600px;
         a {
           color: #418cff;
             &:hover{
@@ -12,20 +13,67 @@
         }
 }
 
-.wrap-story {
-  max-width: 1260px;
-//  margin: 70px;
-  @media(max-width: $screen-mobile){
-    margin: 0px;
+
+.headline   {
+    @include outer-container (50%);
+    margin-top: 10%;
+    text-align:center;
+    @media(max-width: $screen-mobile){
+    @include outer-container (90%);
+    margin: 22% 25px 5% 25px;
     }
 }
 
-.outer   {
-@include outer-container (50%);
+
+.side-caption {
+  color: #676767;
+  font-weight: 300;
+  font-size: .85em;
+  text-align: left;
+  margin: 0 auto;
+  @media(max-width: $screen-mobile){
+  padding: 0 10px 0 5px;
+  }
+}
+
+.lead-photo   {
+    @include outer-container (70%);
+    margin-top: 3%;
     @media(max-width: $screen-mobile){
     @include outer-container (100%);
-    margin: 6% 0 6% 0;
+    margin: 5% 0 5% 0;
     }
+}
+
+.divider-top {
+  border-bottom: 15px solid #000;
+  margin: 30px 0 30px 0;
+  padding: 15px 0 0 0;
+
+}
+
+.divider-bottom {
+  border-bottom: 1px solid #979797;
+  margin: 5px 0 30px 0;
+  padding: 15px;
+}
+
+.callout-box {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding: 3%;
+  height: auto;
+  margin: 35px auto;
+  width: 100%;
+  border-radius: 3px;
+  border: 3px black solid;
+}
+
+.callout-box h2 {
+    font-family: 'mallory';
+    font-size: 1.17em;
+    text-align: center;
 }
 
 
@@ -34,7 +82,7 @@
       @include outer-container(55%);
       }
     @include media(max-width $screen-mobile){
-      @include outer-container(90%);
+      @include outer-container(95%);
       }
     @include media(min-width $screen-larger){
       @include outer-container(40%);
@@ -45,12 +93,15 @@
         font-family: 'Crimson-Text';
         padding: 10px 10px 10px 20px;
         line-height: 30px;
-        font-size: 1.25em;
         text-align: left;
-          @include media(max-width $screen-mobile){
-          font-size: 1.5em;
-          line-height: 30px;
-      }
+        @include media(min-width $screen-mobile){
+            font-size: 1.3em;
+            line-height: 30px; 
+        }
+        @include media(max-width $screen-mobile){
+            font-size: 1.47em;
+            line-height: 30px;  
+        }
 
       }
       ol {
@@ -70,10 +121,9 @@
 }
 
 .container ul li ul li {
-  font-size: .8em;
+  font-size: .75em;
           @include media(max-width $screen-mobile){
-          font-size: .67em;
-          line-height: 30px;
+          font-size: .65em;
       }
 }
 
@@ -85,9 +135,9 @@
   text-align: left;
   margin: 25px auto;
   color: #111;
-  width: 100%;
+  
       @include media(min-width $screen-mobile){
-          font-size: 1.25em;
+          font-size: 1.3em;
           line-height: 30px; 
       }
       @include media(max-width $screen-mobile){

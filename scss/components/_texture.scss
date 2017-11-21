@@ -120,6 +120,17 @@
     border: 7px black solid;
   }
 
+    .texture-normal-contents {
+    // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, 60, 1);
+    padding: 0 3% 3% 3%;
+    height: auto;
+    margin: 15px auto;
+    width: 100%;
+    border-radius: 5px;
+    border: 7px black solid;
+  }
+
 
   .texture-inverted {
     // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
@@ -127,5 +138,21 @@
     float: left;
     height: 5em;
     width: 50%;
+  }
+}
+
+.blue {
+  background-color: #418cff;
+  height: auto;
+  width: 100%;
+
+  .texture-normal {
+    // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
+    padding: 0 4% 4% 4%;
+    height: auto;
+    margin: 35px auto;
+    width: 100%;
+    border-radius: 5px;
+    border: 7px black solid;
   }
 }

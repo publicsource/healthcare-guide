@@ -90,23 +90,15 @@
 
 .half-photo {
 	@include span-columns(6 of 12, table);
-	@media(min-width: 769px){
-		padding: 0 5px 0 0;
-	}
 	@media(max-width: $screen-mobile){
-		@include span-columns(12 of 12);
-		margin-top: 2%;
+	@include span-columns(6 of 12, table);
 	}
 }
 
-.half-photo-second {
-	@include span-columns(6 of 12, table);
-	@media(min-width: 769px){
-		padding: 0 0 0 5px;
-	}
+.half-photo {
+	@include span-columns(12 of 12, table);
 	@media(max-width: $screen-mobile){
-		@include span-columns(12 of 12);
-		margin-top: 5%;
+	@include span-columns(6 of 12, table);
 	}
 }
 

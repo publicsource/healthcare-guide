@@ -127,6 +127,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/crayons.gif": {
+		"ft": 4194304,
+		"iS": 5632,
+		"oA": 0,
+		"oAP": "\/img\/crayons.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/doctor.gif": {
 		"ft": 4194304,
 		"iS": 231014,
@@ -152,6 +160,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/flowchart.png": {
+		"ft": 32768,
+		"iS": 167327,
+		"oA": 0,
+		"oAP": "\/img\/flowchart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/gold.gif": {
 		"ft": 4194304,
 		"iS": 174017,
@@ -169,6 +188,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/healthcare.png": {
+		"ft": 32768,
+		"iS": 2506893,
+		"oA": 0,
+		"oAP": "\/img\/healthcare.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo.svg": {
 		"ft": 2097152,
